@@ -3,6 +3,8 @@
 
 AIM:
 • Simulate the frequency domain representation of non-Periodic signals (Fourier Transform) (Both in CT and DT )
+
+
 THEORY:
 • The DTFT is used for the analysis of nonperiodic discrete time signal .
  DTFT = X(Ω)=∑ 𝒙(𝒏)𝒆∞ −𝒊𝛀𝒏𝒏=−∞
