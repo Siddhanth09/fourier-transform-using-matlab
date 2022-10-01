@@ -2,13 +2,11 @@
 
 
 AIM:
-• Simulate the frequency domain representation of non-Periodic signals (Fourier Transform) (Both in 
-CT and DT )
+• Simulate the frequency domain representation of non-Periodic signals (Fourier Transform) (Both in CT and DT )
 THEORY:
 • The DTFT is used for the analysis of nonperiodic discrete time signal .
- DTFT = X(Ω)=∑ 𝒙(𝒏)𝒆
-∞ −𝒊𝛀𝒏
-𝒏=−∞
+ DTFT = X(Ω)=∑ 𝒙(𝒏)𝒆∞ −𝒊𝛀𝒏𝒏=−∞
+ 
 Here ‘Ω’ is the frequency of the discrete time signals.The range of ‘Ω’is from -𝜋 𝑡𝑜 𝜋 or equivalently 0 to 
 2𝜋 and ⍵ is continuous over the range.X(Ω) is also called spectrum of the discrete time signal, Thus even 
 though x(n) is discrete, its spectrum is continuous. This means x(n) can have all the frequencies from -𝜋
@@ -24,9 +22,9 @@ but discrete samples of it can be readily calculated via the discrete Fourier tr
 Sampling the DTFT), which is by far the most common method of modern Fourier analysis.
 • The CTFT is used for the analysis of nonperiodic continuous signal . 
  
-CTFT =X(⍵)=∫ 𝒙(𝒕)𝒆
-−𝒊𝝎𝒕𝒅𝒕 ∞
-𝒕=−∞
+CTFT =X(⍵)=∫ 𝒙(𝒕)𝒆−𝒊𝝎𝒕𝒅𝒕 
+
+
 • A periodic signal can be represented as linear combination of complex exponentials which are 
 harmonically related
 • An aperiodic signal can be represented as linear combination of complex exponentials, which are 
